@@ -58,7 +58,7 @@ void go_back_n(){
         }
         int ack = rand() % window_size + 1;
         ack = (start - window_size) + ack;
-        start = ack;
+        start = ack;  
         printf("Last ack : %d\n",ack);
     }
 }
